@@ -13,7 +13,7 @@ int main()
     if (a == b && a == c)
     {
         S = a * a * sqrt(3) / 4;
-        printf("The area of the triangle is %F", S);
+        printf("The area of the triangle is %.3f", S);
     }
     else
     {
